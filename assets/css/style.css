@@ -1,1 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*----------------------COLOURS*/
+
+.ui-menu-color-nav{
+    background-color: #2b2a28;
+}
+
+
+/*----------------------HEADINGS*/
+
+header{
+    margin: 0;
+    
+}
+
+.logo{
+    background: url("../images/logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 213px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
+/*----------------------NAV*/
+
+
+.menuitem{
+    height: 100px;
+    text-align: center;
+    padding: 0;
+}
+.menuitem a{
+    width: 100%;
+    text-decoration: none;
+    color: #3eaa3a;
+    height: 100px;
+}
+.menuitem a i{
+    padding-top: 20px;
+    display: block;
+    font-size: 20px;
+}
+.menuitem span{
+    display: block;
+    font-family: "Roboto", sans-serif; 
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+
+    
+}
+#nav{
+    margin: 0;
+}
+#nav li {
+    padding: 0;
+}
+
+/*----------------------NAV HOVERS*/
+
+.hvr-buzz-out{
+    
+}
