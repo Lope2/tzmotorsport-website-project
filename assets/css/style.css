@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*--------------------------------------------Media Queries*/
@@ -20,6 +21,8 @@
 
 .ui-menu-color-nav{
     background-color: #2b2a28;
+
+    
 }
 
 
@@ -40,6 +43,8 @@ header{
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+
+    
     
 }
 
@@ -51,12 +56,17 @@ header{
     height: 100px;
     text-align: center;
     padding: 0;
+    border: 1px;
+    border-color: #8f8f8f;
+    border-style: solid;
+    
 }
 .menuitem a{
     width: 100%;
     text-decoration: none;
     color: #3eaa3a;
     height: 100px;
+    
 }
 .menuitem a i{
     padding-top: 20px;
@@ -114,27 +124,28 @@ h5{
 }
 footer{
     background-color: #2b2a28;
-    height: 200px;
+    height: 50px;
     margin: 0;
-    padding-top: 17px;
+    padding-top: 5px;
+    text-align: center;
 
     
 }
 
 .social-links {
-    padding-bottom: 15px;
+    padding-bottom: 0px;
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 16px;
+    line-height: 15px;
     text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
+    background: red;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -142,9 +153,9 @@ footer{
 }
 
 .social-links li a i:hover {
-    background: ##83b93d;
+    background: #83b93d;
 }
 
 #footer-details {
-    margin: 20px;
+    margin: 0px;
 }
