@@ -39,7 +39,6 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 213px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -87,11 +86,10 @@ header{
 /*----------------------SECTION*/
     
 .background{
-    background: url("../images/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 1200px;
+    height: auto;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
