@@ -16,6 +16,7 @@
         max-width: 50%;
     }
 }
+
 /*----------------------COLOURS*/
 
 .ui-menu-color-nav{
@@ -93,6 +94,25 @@ header{
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+ p{
+    color: white;
+    font-size: 22px;
+    padding-left: 15px;
+    
+}
+li{
+    color: white;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.spraybooth{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.discounts{
+    padding-top: 60px;
+    padding-left: 20px;
+}
 
 /*----------------------MARGINS AND PADDINGS*/
 h5{
@@ -162,7 +182,7 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 1200px;
+    height: auto;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -174,9 +194,6 @@ footer{
     
 }
 .uppercase{
-    color: white;
-}
- p{
     color: white;
 }
 
