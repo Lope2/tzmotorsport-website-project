@@ -39,8 +39,7 @@ header{
 }
 
 .logo{
-    background-image: url("https://lope2.github.io/tzmotorsport-website-project/assets/images/logo.jpg");
-    background: url("assets/images/logo.jpg");
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
