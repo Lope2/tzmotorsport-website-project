@@ -30,12 +30,16 @@
 
 header{
     margin: 0;
+}
+.container-fluid{
+ padding-left: 0px;
+ padding-right: 0px;
 
     
 }
 
 .logo{
-    background-image: url("https://lope2.github.io/logo.jpg");
+    background-image: url("https://lope2.github.io/tzmotorsport-website-project/assets/images/logo.jpg");
     background: url("assets/images/logo.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -179,7 +183,7 @@ footer{
     margin: 0px;
 }
 .section-column{
-    background: url("assets/images/checker.jpg");
+    background: url("https://lope2.github.io/tzmotorsport-website-project/assets/images/checker.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
