@@ -35,7 +35,7 @@ header{
 }
 
 .logo{
-    background: url("../images/logo.jpg");
+    background-image: url("https://lope2.github.io/logo.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -178,7 +178,7 @@ footer{
     margin: 0px;
 }
 .section-column{
-    background: url("/../assets/images/checker.jpg");
+    background: url("assets/images/checker.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
