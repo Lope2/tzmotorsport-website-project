@@ -17,6 +17,21 @@
     }
 }
 
+@media(min-width:0px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
 /*----------------------COLOURS*/
 
 .ui-menu-color-nav{
@@ -35,11 +50,10 @@ header{
  padding-left: 0px;
  padding-right: 0px;
 
-    
 }
 
 .logo{
-
+    padding-right: 0px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,6 +162,8 @@ footer{
     height: 50px;
     margin: 0;
     padding-top: 5px;
+    padding-bottom: 0px;
+    padding-right: 0px;
     text-align: center;
     width: auto;
 
@@ -182,7 +198,7 @@ footer{
     margin: 0px;
 }
 .section-column{
-    background: url("https://lope2.github.io/tzmotorsport-website-project/assets/images/checker.jpg");
+    background: url("/assets/images/wall.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
